@@ -14,319 +14,319 @@
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
-	
+
 <!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
 
 <html>
-	<head>
-		<meta charset="UTF-8"/>
-		<meta name="google-site-verification" content="ls-e9TiP6HeeI-N_t4cgHXGmdRe6OVPOeYIWgi0-hFY" />
-		<link rel="shortcut icon" href="/b829/aberhart/favicon.ico"/>
-		<title>William Aberhart</title>
-		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
-		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
-		<script src="/b829/aberhart/universal/js-cookie.js"></script>
-		<script src="/b829/aberhart/universal/menu-importer.js"></script>
-		
-		<script src="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.css"/>
-		
-		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/bxslider/jquery.bxslider.css"/>
-		<script src="/b829/aberhart/universal/bxslider/jquery.bxslider.min.js"></script>
-		
-		<link rel="stylesheet" type="text/css" href="/b829/aberhart/index.css"/>
-		
-		<script>
-			"use strict";
-			$( document ).ready(function() {
-				var mainPageSlider = $('.mainPageSlider').bxSlider({ auto: true,
-																	autoControls: true,
-																	adaptiveHeight: true,
-																	responsive: true,
-																	infiniteLoop: true,
-																	autoControlsCombine:
-																	true, autoHover: true,
-																	pause: 7000,
-																	randomStart: true,
-																	useCSS: false
-																	});
-				
-				// If browser is not mobile
-				if (typeof window.orientation == 'undefined') {
-					$( "#maxWidthSliderContainer" ).css("display","block");
-					var value = 1600;
-					if (Cookies.get("max-width")) {
-						value=Cookies.get("max-width");
-					}
-					$( "#maxWidthSlider" ).slider({ min:935, max:1600, value: value,
-												slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" ); mainPageSlider.redrawSlider(); },
-												stop: function( event, ui ) { Cookies.set('max-width', ui.value, { expires: 365, path: '/b829/aberhart/' });}
-												});
-				}
-			});
-		</script>
-	</head>
-	<body>
-		<div id="cbe-header"></div>
-		<div id="topmenu-import"></div>
-		<div id="content">
-		
-		
-		<!-- The following code is Copyright (C) Google Inc. -->
-		<!-- It is subject to the terms of the CSE Terms of service (https://support.google.com/customsearch/answer/1714300) -->
-			<script>
-				(function() {
-					var cx = '006028622568350719063:iwe4sfgnlqs';
-					var gcse = document.createElement('script');
-					gcse.type = 'text/javascript';
-					gcse.async = true;
-					gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
-					var s = document.getElementsByTagName('script')[0];
-					s.parentNode.insertBefore(gcse, s);
-				})();
-			</script>
-			<gcse:search></gcse:search>
-			<!-- Here ends the section of code belonging to Google Inc.
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="ls-e9TiP6HeeI-N_t4cgHXGmdRe6OVPOeYIWgi0-hFY" />
+    <link rel="shortcut icon" href="/b829/aberhart/favicon.ico" />
+    <title>SBGHS</title>
+    <link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css" />
+    <script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+    <script src="/b829/aberhart/universal/js-cookie.js"></script>
+    <script src="/b829/aberhart/universal/menu-importer.js"></script>
+
+    <script src="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.css" />
+
+    <link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/bxslider/jquery.bxslider.css" />
+    <script src="/b829/aberhart/universal/bxslider/jquery.bxslider.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/b829/aberhart/index.css" />
+
+    <script>
+        "use strict";
+        $(document).ready(function() {
+            var mainPageSlider = $('.mainPageSlider').bxSlider({
+                auto: true,
+                autoControls: true,
+                adaptiveHeight: true,
+                responsive: true,
+                infiniteLoop: true,
+                autoControlsCombine: true,
+                autoHover: true,
+                pause: 7000,
+                randomStart: true,
+                useCSS: false
+            });
+
+            // If browser is not mobile
+            if (typeof window.orientation == 'undefined') {
+                $("#maxWidthSliderContainer").css("display", "block");
+                var value = 1600;
+                if (Cookies.get("max-width")) {
+                    value = Cookies.get("max-width");
+                }
+                $("#maxWidthSlider").slider({
+                    min: 935,
+                    max: 1600,
+                    value: value,
+                    slide: function(event, ui) {
+                        $("body").css("max-width", ui.value + "px");
+                        mainPageSlider.redrawSlider();
+                    },
+                    stop: function(event, ui) {
+                        Cookies.set('max-width', ui.value, {
+                            expires: 365,
+                            path: '/b829/aberhart/'
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div id="cbe-header"></div>
+    <div id="topmenu-import"></div>
+    <div id="content">
+
+
+        <!-- The following code is Copyright (C) Google Inc. -->
+        <!-- It is subject to the terms of the CSE Terms of service (https://support.google.com/customsearch/answer/1714300) -->
+        <script>
+            (function() {
+                var cx = '006028622568350719063:iwe4sfgnlqs';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+            })();
+        </script>
+        <gcse:search></gcse:search>
+        <!-- Here ends the section of code belonging to Google Inc.
 			The code that follows is subject to the terms outlined at the top of this document -->
-			
-			
-			<!-- Glimpses into Aberhart life and culture (i.e. feel-good stories, or things we can be proud of) 
+
+
+        <!-- Glimpses into Aberhart life and culture (i.e. feel-good stories, or things we can be proud of) 
 			**Please list content from longest to shortest to avoid revival of #41**-->
-			<div id="sliderContainer">
-				<div class="mainPageSlider">
-					<div>
-						<p>
-							<img src="/b829/aberhart/main/news/banner/aberhart-mart.jpg" alt="aberhart-mart"/>
-							<h3 class="centerAlign">Aberhart Mart online store</h3>						
-							Shop the
-							<a href="http://urstore.ca/schools/ca/alberta/calgary/aberhart-mart?ref=276">
+        <div id="sliderContainer">
+            <div class="mainPageSlider">
+                <div>
+                    <p>
+                        <img src="/b829/aberhart/main/news/banner/aberhart-mart.jpg" alt="aberhart-mart" />
+                        <h3 class="centerAlign">Aberhart Mart online store</h3>
+                        Shop the
+                        <a href="http://urstore.ca/schools/ca/alberta/calgary/aberhart-mart?ref=276">
 								Aberhart Mart online store
-							</a>
-                            for a wide selection of merchandise,
-							apparel, sportswear and accessories. Show your pride, spirit and support by
-							wearing your Aberhart Mart gear.
-						</p>
-						<p>
-                            Pick from a great assortment of Aberhart Mart products, colors and designs.
-						</p>
-					</div>
-					<div>
-						<img src="/b829/aberhart/main/news/banner/akanksha.jpg" alt="learning-commons"/>
-						<h3 class="centerAlign">
-						U of C - Hotchkiss Brain Institute</h3>
-						<p>Please congratulate  Akanksha J.
-							1st in the oral round of the competition
-							8th  overall out of 68 competitors
-							“It was a privilege to be able to represent William Aberhart in this competition, and
-							I was lucky to have the support of my classmates and teachers. I can now officially
-							call myself a neuroscience “aficionado” thanks to the knowledge I gained through the
-							brain bee! “
-							To prepare for the competition, she spent 3 months vigorously memorizing neuroanatomy
-							- in addition of her AP course load.
-							“It further inspired me to pursue neuroscience as a career, and gave me the
-							opportunity to explore its intricacies and exciting breakthroughs.”						
-						</p>
-						</p>
-					</div>
-					<div>
-						<img src="/b829/aberhart/main/news/banner/biotrip.jpg" alt="learning-commons"/>
-						<h3 class="centerAlign">Aberhart Biology 20 Classes</h3>
-						<p>
-							The Aberhart Biology 20 classes spent an afternoon in Confederation park studying a
-							wetland ecosystem in their very own ORANGE community. Students experienced fieldwork as
-							carried out by research biologists and ecologists.						
-						</p>
-					</div>
-					<div>
-						<img src="/b829/aberhart/main/news/banner/advocate.jpg" alt="advocate"/>
-						<h3 class="centerAlign">Check out The Advocate!</h3>
-						<p>
-							The Advocate is the official newspaper of William
-							Aberhart High School. We publish on a bi-weekly basis,
-							and the most recent issue is
-							<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/student-activities/advocate/advocate.pdf">
+							</a> for a wide selection of merchandise, apparel, sportswear and accessories. Show your pride, spirit and support by wearing your Aberhart Mart gear.
+                    </p>
+                    <p>
+                        Pick from a great assortment of Aberhart Mart products, colors and designs.
+                    </p>
+                </div>
+                <div>
+                    <img src="/b829/aberhart/main/news/banner/akanksha.jpg" alt="learning-commons" />
+                    <h3 class="centerAlign">
+                        U of C - Hotchkiss Brain Institute</h3>
+                    <p>Please congratulate Akanksha J. 1st in the oral round of the competition 8th overall out of 68 competitors “It was a privilege to be able to represent William Aberhart in this competition, and I was lucky to have the support of my
+                        classmates and teachers. I can now officially call myself a neuroscience “aficionado” thanks to the knowledge I gained through the brain bee! “ To prepare for the competition, she spent 3 months vigorously memorizing neuroanatomy
+                        - in addition of her AP course load. “It further inspired me to pursue neuroscience as a career, and gave me the opportunity to explore its intricacies and exciting breakthroughs.”
+                    </p>
+                    </p>
+                </div>
+                <div>
+                    <img src="/b829/aberhart/main/news/banner/biotrip.jpg" alt="learning-commons" />
+                    <h3 class="centerAlign">Aberhart Biology 20 Classes</h3>
+                    <p>
+                        The Aberhart Biology 20 classes spent an afternoon in Confederation park studying a wetland ecosystem in their very own ORANGE community. Students experienced fieldwork as carried out by research biologists and ecologists.
+                    </p>
+                </div>
+                <div>
+                    <img src="/b829/aberhart/main/news/banner/advocate.jpg" alt="advocate" />
+                    <h3 class="centerAlign">Check out The Advocate!</h3>
+                    <p>
+                        The Advocate is the official newspaper of William Aberhart High School. We publish on a bi-weekly basis, and the most recent issue is
+                        <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/student-activities/advocate/advocate.pdf">
 								posted here.
 							</a>
-						</p>
-						<h3>
-							In the latest issue:
-						</h3>
-						<ul class="list">
-							Divide We Fall<br>
-							Drones and Planes Don't Mix<br>
-							The Final Article
-						</ul>
-					</div>
-					<div>
-						<img src="/b829/aberhart/main/news/banner/aberhart-oval.jpg" alt="aberhart-oval"/>
-						<h3 class="centerAlign">The Orange Tribune</h3>
-						<p>
-							Our Aberhart athletics teams are off to a great start. We have already won a city
-							championship (Girls Soccer) and a provincial championship (Cross Country)!
-						</p>
-						<p>
-							For a full news update, check out the <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/general/orange-tribune.pdf">
+                    </p>
+                    <h3>
+                        In the latest issue:
+                    </h3>
+                    <ul class="list">
+                        Divide We Fall<br> Drones and Planes Don't Mix<br> The Final Article
+                    </ul>
+                </div>
+                <div>
+                    <img src="/b829/aberhart/main/news/banner/aberhart-oval.jpg" alt="aberhart-oval" />
+                    <h3 class="centerAlign">The Orange Tribune</h3>
+                    <p>
+                        Our Aberhart athletics teams are off to a great start. We have already won a city championship (Girls Soccer) and a provincial championship (Cross Country)!
+                    </p>
+                    <p>
+                        For a full news update, check out the <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/general/orange-tribune.pdf">
 								Orange Tribune
-							</a>
-							(issue # 5, 14 December 2016)
-						</p>
-					</div>
-					<div>
-						<img src="/b829/aberhart/main/news/banner/aberhart-robotics-republic.jpg" alt="aberhart-robotics-republic"/>
-						<h3 class="centerAlign">Aberhart Robotics Republic</h3>
-						<p>
-							Aberhart has a new robotics team! Since September of this year, 30+ students have been hard
-							at work to start up the Aberhart Robotics Republic. We have entered the
-								<a href="http://www.firstinspires.org/robotics/ftc"> FIRST Tech Competition</a>,
-							in which teams "are challenged to design, build, program, and operate robots to play a floor
-							game in an alliance format." In addition to building and testing our competition robot, we
-							are also actively developing multi-media content and solving standard robotics challenges.
-						</p>
-							Check out our <a href="https://aberobotics.github.io/AbeRoboticsWebsite/">website</a> and our
-							<a href="https://youtu.be/jtaqB6ZAjz0?list=PLMFXvOdxpAKDhq0-bKqS6GAlntE98RVYe"> Youtube channel</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<table class="mainPageNews mainPageSection">
-				<colgroup>
-					<col span="2"/><!-- To style the first two columns -->
-					<col span="1"/><!-- To style the last column -->
-				</colgroup>
-				<tbody>
-					<tr>
-						<td>
-							<h3>What's New</h3>
-							<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
-							<!-- Include only events that have occured; limit of four -->
-							<ul class="list">
-								<li>
-								  <p>Don't Miss Out on School Messages<p>
-                                  <table width="100%" border="0" cellpadding="0" cellspacing="8">
-                                    <tbody>
-                                      <tr>
-                                        <td valign="top"><img src="../../images/CASL-Blue-icon-low-res.jpg" width="100" height="83" alt=""/></td>
-                                        <td valign="top"><p>Parents/guardians: Due to Canada&rsquo;s Anti-Spam Legislation  (CASL), if you want to keep receiving electronic messages from our school on  commercial topics such as student fees and field trip costs, <strong>you need  to </strong><a href="http://www.cbe.ab.ca/subscribe"><strong>subscribe online</strong></a><strong>.</strong><strong> </strong></p></td>
-                                      </tr>
-                                      <tr>
-                                        <td valign="top"><img src="../../images/CASL-Purple-Text-icon-low-res.jpg" width="100" height="83" alt=""/></td>
-                                        <td valign="top"><p><strong>In  addition</strong>, if you want to receive <em>any</em> text messages from our school, you need to opt-in by texting the word <strong>YES</strong> to the six-digit number <strong>724665</strong>. </p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-								</li>
-								<li>Administrator's Monthly: <a href="http://www.cbe.ab.ca/news-centre/leadership-newsletter/Pages/default.aspx">Leadership Link (monthly newsletter from the Chief Superintendent/Board of Trustees)</a>, <a href="http://cbe.ab.ca/get-involved/public-engagement/Pages/default.aspx">
+							</a> (issue # 5, 14 December 2016)
+                    </p>
+                </div>
+                <div>
+                    <img src="/b829/aberhart/main/news/banner/aberhart-robotics-republic.jpg" alt="aberhart-robotics-republic" />
+                    <h3 class="centerAlign">Aberhart Robotics Republic</h3>
+                    <p>
+                        Aberhart has a new robotics team! Since September of this year, 30+ students have been hard at work to start up the Aberhart Robotics Republic. We have entered the
+                        <a href="http://www.firstinspires.org/robotics/ftc"> FIRST Tech Competition</a>, in which teams "are challenged to design, build, program, and operate robots to play a floor game in an alliance format." In addition to building
+                        and testing our competition robot, we are also actively developing multi-media content and solving standard robotics challenges.
+                    </p>
+                    Check out our <a href="https://aberobotics.github.io/AbeRoboticsWebsite/">website</a> and our
+                    <a href="https://youtu.be/jtaqB6ZAjz0?list=PLMFXvOdxpAKDhq0-bKqS6GAlntE98RVYe"> Youtube channel</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <table class="mainPageNews mainPageSection">
+            <colgroup>
+                <col span="2" />
+                <!-- To style the first two columns -->
+                <col span="1" />
+                <!-- To style the last column -->
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td>
+                        <h3>What's New</h3>
+                        <!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
+                        <!-- Include only events that have occured; limit of four -->
+                        <ul class="list">
+                            <li>
+                                <p>Don't Miss Out on School Messages
+                                    <p>
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="8">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top"><img src="../../images/CASL-Blue-icon-low-res.jpg" width="100" height="83" alt="" /></td>
+                                                    <td valign="top">
+                                                        <p>Parents/guardians: Due to Canada&rsquo;s Anti-Spam Legislation (CASL), if you want to keep receiving electronic messages from our school on commercial topics such as student fees and field trip costs,
+                                                            <strong>you need  to </strong><a href="http://www.cbe.ab.ca/subscribe"><strong>subscribe online</strong></a><strong>.</strong><strong> </strong></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top"><img src="../../images/CASL-Purple-Text-icon-low-res.jpg" width="100" height="83" alt="" /></td>
+                                                    <td valign="top">
+                                                        <p><strong>In  addition</strong>, if you want to receive <em>any</em> text messages from our school, you need to opt-in by texting the word <strong>YES</strong> to the six-digit number <strong>724665</strong>.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                            </li>
+                            <li>Administrator's Monthly: <a href="http://www.cbe.ab.ca/news-centre/leadership-newsletter/Pages/default.aspx">Leadership Link (monthly newsletter from the Chief Superintendent/Board of Trustees)</a>, <a href="http://cbe.ab.ca/get-involved/public-engagement/Pages/default.aspx">
 									Community Engagement
 								</a>.
-								</li>
-								<li>
-									William Aberhart High School's
-									<a href="https://aberhartlearningcommons.wordpress.com/">
+                            </li>
+                            <li>
+                                William Aberhart High School's
+                                <a href="https://aberhartlearningcommons.wordpress.com/">
 										Learning Commons Blog
-									</a>
-									(new post February 2nd)
-								</li>
-								<li>
-									Tell Them From Me Survey Results:
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-survey-highlights.pdf">
+									</a> (new post February 2nd)
+                            </li>
+                            <li>
+                                Tell Them From Me Survey Results:
+                                <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-survey-highlights.pdf">
 										Highlights
 									</a>
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-bullying-and-school-safety.pdf">
+                                <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-bullying-and-school-safety.pdf">
 										Bullying and School Safety
 									</a>
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-school-completion.pdf">
+                                <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-school-completion.pdf">
 										School Completion
 									</a>
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-student-engagement.pdf">
+                                <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-student-engagement.pdf">
 										Student Engagement
 									</a>
-								</li>
-								<li>
-									William Aberhart High School's
-<!--									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-results-report.pdf">
+                            </li>
+                            <li>
+                                William Aberhart High School's
+                                <!--									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-results-report.pdf">
 										2015-16 School Results Report
 									</a>
 									and 
--->									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-development-plan-2016-2017.pdf">
+--><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-development-plan-2016-2017.pdf">
 										2016-17 School Development Plan
 									</a>
-								</li>
-							</ul>
-						</td>
-						<td>
-							<h3 class="centerAlign">Upcoming</h3>
-							<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
-							<!-- Include only information that is current (i.e. events that are ongoing; limit of four -->
-							<p>
-								<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/upcoming/spud-summer-2017.pdf"> <img class="centerAlignImage" src="/b829/aberhart/main/news/upcoming/spud-fundraising.jpg" alt="spud-fundraising.ca"/></a>
-  							</p> 
-							<p>
-								<a href="pdfs/back-to-school.pdf" target="_blank">
-<img class="centerAlignImage"  src="http://www.cbe.ab.ca/registration/back-to-school/PublishingImages/back-to-school-button.jpg" alt="Back-to-School Information" width="138" height="230" border="0" /></a>
-							</p>
-						</td>
-						<td>
-						<h3>Ongoing</h3>
-							<ul class="list">
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/programs/french-immersion/general-information.pdf">
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <h3 class="centerAlign">Upcoming</h3>
+                        <!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
+                        <!-- Include only information that is current (i.e. events that are ongoing; limit of four -->
+                        <p>
+                            <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/upcoming/spud-summer-2017.pdf"> <img class="centerAlignImage" src="/b829/aberhart/main/news/upcoming/spud-fundraising.jpg" alt="spud-fundraising.ca" /></a>
+                        </p>
+                        <p>
+                            <a href="pdfs/back-to-school.pdf" target="_blank">
+                                <img class="centerAlignImage" src="http://www.cbe.ab.ca/registration/back-to-school/PublishingImages/back-to-school-button.jpg" alt="Back-to-School Information" width="138" height="230" border="0" /></a>
+                        </p>
+                    </td>
+                    <td>
+                        <h3>Ongoing</h3>
+                        <ul class="list">
+                            <li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/programs/french-immersion/general-information.pdf">
 								French Immersion at ABE
 								</a></li>
-								<li><a href="http://www.cbe.ab.ca/GovernancePolicies/AR6005-Student-Code-of-Conduct.pdf">CBE Student Code of Conduct, Administrative Regulation 6005</a> (External)</li>
-								<li><a href="http://www.cbe.ab.ca/GovernancePolicies/AR6006-Progressive-Student-Discipline.pdf">Progressive Student Discipline, Administrative Regulation 6006</a> (External)</li>
-								<li><a href="http://www.cbe.ab.ca/GovernancePolicies/AR6007-Suspension-and-Expulsion.pdf">Suspension and Expulsion, Administrative Regulation 6007 </a>(External)</li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/william-aberhart-attendance-policy.pdf">William Aberhart Attendance Policy and Procedures </a></li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/wasc-application-form.pdf">
+                            <li><a href="http://www.cbe.ab.ca/GovernancePolicies/AR6005-Student-Code-of-Conduct.pdf">CBE Student Code of Conduct, Administrative Regulation 6005</a> (External)</li>
+                            <li><a href="http://www.cbe.ab.ca/GovernancePolicies/AR6006-Progressive-Student-Discipline.pdf">Progressive Student Discipline, Administrative Regulation 6006</a> (External)</li>
+                            <li><a href="http://www.cbe.ab.ca/GovernancePolicies/AR6007-Suspension-and-Expulsion.pdf">Suspension and Expulsion, Administrative Regulation 6007 </a>(External)</li>
+                            <li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/william-aberhart-attendance-policy.pdf">William Aberhart Attendance Policy and Procedures </a></li>
+                            <li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/wasc-application-form.pdf">
 								  William Aberhart Student Council - Application Form
 								</a></li>
-								<li><a href="/b829/aberhart/main/news/whats-new/welcome-to-website.html">
+                            <li><a href="/b829/aberhart/main/news/whats-new/welcome-to-website.html">
 									Welcome to our website!
 								</a></li>
-							</ul>
-						</td>
-					</tr>
-					<tr>
-						<!--<td><a href="/b829/aberhart/main/news/whats-new/news-archive.html">more...</a></td>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <!--<td><a href="/b829/aberhart/main/news/whats-new/news-archive.html">more...</a></td>
 						<td><a href="/b829/aberhart/main/news/upcoming/upcoming-archive.html">more...</a></td>
 						<td><a href="/b829/aberhart/main/news/ongoing/ongoing-archive.html">more...</a></td>-->
-					</tr>
-				</tbody>
-			</table>
-			<div class="mainPageSection">
-				<h3>Concussion links</h3>
-				<table id="concussionLinks">
-					<tbody>
-						<tr>
-							<td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-athletes.pdf">
+                </tr>
+            </tbody>
+        </table>
+        <div class="mainPageSection">
+            <h3>Concussion links</h3>
+            <table id="concussionLinks">
+                <tbody>
+                    <tr>
+                        <td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-athletes.pdf">
 								For athletes
 							</a></td>
-							<td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-coaches.pdf">
+                        <td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-coaches.pdf">
 								For coaches and trainers
 							</a></td>
-							<td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-parents.pdf">
+                        <td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-parents.pdf">
 								For parents and caregivers
 							</a></td>
-							<td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-teachers.pdf">
+                        <td><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/athletics/forms/concussion-guidelines-for-teachers.pdf">
 								For teachers
 							</a></td>
-							<td><a href="http://www.parachutecanada.org/">
+                        <td><a href="http://www.parachutecanada.org/">
 								parachutecanada.org (external)
 							</a></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div id="maxWidthSliderContainer" class="mainPageSection">
-				<h3>Adjust the maximum width of the website:</h3>
-				<div id="maxWidthSlider"></div>
-			</div>
-		</div>
-		<div id="leftside">
-			<div id="areamenu"></div>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="maxWidthSliderContainer" class="mainPageSection">
+            <h3>Adjust the maximum width of the website:</h3>
+            <div id="maxWidthSlider"></div>
+        </div>
+    </div>
+    <div id="leftside">
+        <div id="areamenu"></div>
 
-			<div id="cberssfeed">
-				<h3 id="cbeRSStitle">CBE News</h3>
-				<script src="http://feeds.feedburner.com/CalgaryBoardOfEducationNews?format=sigpro"></script>
-				<noscript>
+        <div id="cberssfeed">
+            <h3 id="cbeRSStitle">CBE News</h3>
+            <script src="http://feeds.feedburner.com/CalgaryBoardOfEducationNews?format=sigpro"></script>
+            <noscript>
 					<strong>CBE RSS News Feed</strong>
 					<p>JavaScript seems to not be working.</p>
 					<p>
@@ -336,14 +336,15 @@
 						</a>
 					</p>
 				</noscript>
-				<div id="cbeRSSsubscribe">
-					<a href="http://feedburner.google.com/fb/a/mailverify?uri=CalgaryBoardOfEducationNews">Sign up for CBE RSS by Email</a>
-					<br/>
-					<a href="http://feeds2.feedburner.com/CalgaryBoardOfEducationNews?format=html">Subscribe by RSS</a>
-				</div>
-			</div>
-		</div>
-		<div id="rightside"></div>
-		<div id="footers"></div>
-	</body>
+            <div id="cbeRSSsubscribe">
+                <a href="http://feedburner.google.com/fb/a/mailverify?uri=CalgaryBoardOfEducationNews">Sign up for CBE RSS by Email</a>
+                <br/>
+                <a href="http://feeds2.feedburner.com/CalgaryBoardOfEducationNews?format=html">Subscribe by RSS</a>
+            </div>
+        </div>
+    </div>
+    <div id="rightside"></div>
+    <div id="footers"></div>
+</body>
+
 </html>
